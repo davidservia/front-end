@@ -1,5 +1,4 @@
 # front-end
-Este repositorio esta destinado al front-end del Crud
 <p>Este repositorio esta destinado al front-end del Crud</p>
 <p>Version Completa</p>
 <p>https://github.com/davidservia/Crud_Trading_Final</p>
