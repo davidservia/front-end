@@ -17,7 +17,7 @@
       <br><br>
       <div class="panel panel-info">
         <div class="panel-heading text-center">Modificación de posicion</div>
-          <form method="get" action="grabaPosicion.jsp">
+          <form method="post" action="listado.html">
             <div class="form-group"> 
               <label>&nbsp;&nbsp;Nº de posicion:&nbsp;</label><input type="text" size="5" name="posicionID" value="<%= request.getParameter("posicionID") %>" readonly>
             </div>
@@ -32,7 +32,7 @@
              <label>&nbsp;&nbsp;Mercados:&nbsp;</label><input type="text" name="mercados" size="20" value="<%= request.getParameter("mercados") %>">
             </div>
             <hr>
-            &nbsp;&nbsp;<a href="listado.jsp" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span>Cancelar</a>
+            &nbsp;&nbsp;<a href="modificaPosicion.html" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span>Cancelar</a>
             <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-ok"></span>Aceptar</button><br><br>
           </form>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
