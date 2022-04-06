@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -21,29 +21,19 @@
             <tr><th>Nº de Posicion</th><th>Nombre</th><th>Entrada</th><th>Liquidacion</th><th>Mercados</th><th>Añadir/Editar</th><th>Eliminar</th></tr>
         <form method="get" action="altaPosicion.jsp">
           <tr><td><input type="text" name="posicionID" size="5"></td>
-              <td><input type="text" name="nombre" size="30"></td>
+              <td><input type="text" name="nombre" size="20"></td>
               <td><input type="text" name="entrada" size="5"></td>
               <td><input type="text" name="liquidacion" size="5"></td>
-              <td><input type="text" name="mercados" size="20"></td>
-              <td><button type="submit" value="Añadir" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Añadir</button></td><td></td></tr>           
-        </form>
-
-        <td>
-        <form method="get" action="modificaPosicion.html">
-					<input type="hidden" name="posicionID" value="<%=listado.getString("posicionID") %>">
-          <input type="hidden" name="nombre" value="<%=listado.getString("nombre") %>">
-          <input type="hidden" name="entrada" value="<%=listado.getString("entrada") %>">
-          <input type="hidden" name="liquidacion" value="<%=listado.getString("liquidacion") %>">
-          <input type="hidden" name="mercados" value="<%=listado.getString("mercados") %>">
-					<button type="submit"  class="btn btn-info"><span class="glyphicon glyphicon-pencil"></span> Modificar</button>
-				</form>
-				</td>
-				<td>
-        <form method="get" action="borraPosicion.jsp">
-          <input type="hidden" name="posicionID" value="<%=listado.getString("posicionID") %>"/>
+              <td><input type="text" name="mercados" size="15"></td>
+              <td><button type="submit" value="Añadir" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Añadir</button></td> 
+		<button type="submit"  class="btn btn-info"><span class="glyphicon glyphicon-pencil"></span> Modificar</button>
+       
           <button type="submit" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span> Eliminar</button>
         </form>
-        </td></tr>
+
+     
+					
+       
     
 
         </table>
